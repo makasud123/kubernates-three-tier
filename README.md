@@ -4,9 +4,7 @@
 This repository hosts the `#TWSThreeTierAppChallenge` for the TWS community. 
 The challenge involves deploying a Three-Tier Web Application using ReactJS, NodeJS, and MongoDB, with deployment on AWS EKS. Participants are encouraged to deploy the application, add creative enhancements, and submit a Pull Request (PR). Merged PRs will earn exciting prizes!
 
-**Get The Challenge here**
 
-[![YouTube Video](https://img.youtube.com/vi/tvWQRTbMS1g/maxresdefault.jpg)](https://youtu.be/tvWQRTbMS1g?si=eki-boMemxr4PU7-)
 
 ## Prerequisites
 - Basic knowledge of Docker, and AWS services.
@@ -14,19 +12,13 @@ The challenge involves deploying a Three-Tier Web Application using ReactJS, Nod
 
 ## Challenge Steps
 - [Application Code](#application-code)
-- [Jenkins Pipeline Code](#jenkins-pipeline-code)
-- [Jenkins Server Terraform](#jenkins-server-terraform)
 - [Kubernetes Manifests Files](#kubernetes-manifests-files)
 - [Project Details](#project-details)
 
 ## Application Code
 The `Application-Code` directory contains the source code for the Three-Tier Web Application. Dive into this directory to explore the frontend and backend implementations.
 
-## Jenkins Pipeline Code
-In the `Jenkins-Pipeline-Code` directory, you'll find Jenkins pipeline scripts. These scripts automate the CI/CD process, ensuring smooth integration and deployment of your application.
 
-## Jenkins Server Terraform
-Explore the `Jenkins-Server-TF` directory to find Terraform scripts for setting up the Jenkins Server on AWS. These scripts simplify the infrastructure provisioning process.
 
 ## Kubernetes Manifests Files
 The `Kubernetes-Manifests-Files` directory holds Kubernetes manifests for deploying your application on AWS EKS. Understand and customize these files to suit your project needs.
@@ -135,17 +127,4 @@ Delete the Load Balancer created in step 9 and 10.
 Go to EC2 console, access security group section and delete security groups created in previous steps
 ```
 
-## Contribution Guidelines
-- Fork the repository and create your feature branch.
-- Deploy the application, adding your creative enhancements.
-- Ensure your code adheres to the project's style and contribution guidelines.
-- Submit a Pull Request with a detailed description of your changes.
 
-## Rewards
-- Successful PR merges will be eligible for exciting prizes!
-
-## Support
-For any queries or issues, please open an issue in the repository.
-
----
-Happy Learning! 🚀👨‍💻👩‍💻
